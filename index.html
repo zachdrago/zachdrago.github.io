@@ -1,8 +1,257 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <!-- <link rel="stylesheet" href="css/base.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/lightbox.css" rel="stylesheet" />
+  <script type="text/javascript" src="vendor/bower/jquery/jquery.js"></script>
+  <script type="text/javascript" src="js/backend/jquery-extends/live-patch.js"></script>
+  <script type="text/javascript">
+      var fonts = {
+        "Open Sans": {
+          "source": "google",
+          "variants": [
+            "300",
+            "300italic",
+            "600",
+            "600italic",
+            "700",
+            "700italic",
+            "800",
+            "800italic",
+            "italic",
+            "regular"
+          ],
+          "subsets": [
+            "cyrillic",
+            "cyrillic-ext",
+            "greek",
+            "greek-ext",
+            "latin",
+            "latin-ext",
+            "vietnamese"
+          ],
+          "family": "Open Sans"
+        },
+        "Passion One": {
+          "source": "google",
+          "variants": [
+            "700",
+            "900",
+            "regular"
+          ],
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "family": "Passion One"
+        },
+        "Ultra": {
+          "source": "google",
+          "variants": [
+            "regular"
+          ],
+          "subsets": [
+            "latin"
+          ],
+          "family": "Ultra"
+        },
+        "Montserrat": {
+          "source": "google",
+          "variants": [
+            "700",
+            "regular"
+          ],
+          "subsets": [
+            "latin"
+          ],
+          "family": "Montserrat"
+        }
+      };
+  </script>
+  <script type="text/javascript" src="vendor/js/webfont.js"></script>
+  <script type="text/javascript" src="js/fontloader.js"></script>
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+
+  <meta http-equiv="content-language" content="en">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Nixie+One|Lato:100,300,400,500|Wire+One|Source+Code+Pro:200,300,600|Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
+</head>
+
 <body>
-<h1>Hello World XX</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<img src="img/spot.png" style="width: 200px;">
+  <div class="b-content">
+    <div class="header">
+      <div class="nameWrap"><div class="name">zach drago</div></div>
+    </div>
+   
+    <div class="about">
+        <div class="content">
+        I am a graduate of Miami University with a degree in Interactive Media Studies and a minor in Product Design through metal-smithing. I am passionate and driven in various forms of Design, UX Research, Branding, Web-design, and CSM. I often find myself in leadership roles when in collaborative environments and tend to take on a great deal of responsibilities. I am currently working as a Customer Success Managerin the US office of an Australian based company, Stackla. Working as a CSM for a small company allows me to exercise and challenge my technological &amp; customer service skill sets while adding value to a company that I am passionate about. After interning in San Francisco 2 years ago I have become captivated by the startup culture and have now made the Bay area home.<br><br>
+        </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="projectWrap">
+        <div class="project" id="proj1" style="background: URL('https://dl.dropboxusercontent.com/u/804978/img/My%20Work%20Thumbs/Visual%20Explanation%20zoom.png') no-repeat; background-size: 102%">
+          <div class="redTint">
+            <div class="description">
+            <br><br><a href="img/Visual_Explanation.png" data-lightbox="visual" data-title="Visual Explanation"><h2>Visual<br>Explanation<br>+</h2></a>
+            </div>
+          </div>
+        </div>
+        <div class="project" id="proj2" style="background: URL('https://dl.dropboxusercontent.com/u/804978/froont-page/img/bowtie_thumb.jpeg') no-repeat; background-size: 102%">
+          <div class="redTint">
+              <div class="description">
+                <br><br><a href="img/bowtie.jpg" rel="lightbox[bowtie]" data-lightbox="bowtie" data-title="handcrafted, custom designed patterns(Illustrator). For Sale: Contact me for details."><h2>Titanium<br>Bow Tie<br>+</h2></a>
+              </div>
+          </div>
+        </div>
+        <div class="project" id="proj3" style="background: URL('https://dl.dropboxusercontent.com/u/804978/froont-page/img/self_thumb.jpeg') no-repeat; background-size: 102%">
+          <div class="redTint">
+              <div class="description">
+                <br><br><a href="img/self.JPG" data-lightbox="self" data-title="Self portrait created in photoshop."><h2>Self<br>Portrait<br>+</h2></a>
+              </div>
+          </div>
+        </div>
+        <div class="project" id="proj4" style="background: URL('https://dl.dropboxusercontent.com/u/804978/froont-page/img/strip_thumb.jpeg') no-repeat; background-size: 102%">
+          <div class="redTint">
+              <div class="description">
+                <br><br><a href="img/strip.jpg" data-lightbox="strip" data-title=""><h2>Strip<br>Studies<br>+</h2></a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="projectWrap">
+        <div class="project" id="proj5" style="background: URL('https://dl.dropboxusercontent.com/u/804978/froont-page/img/reagan_thumb.png') no-repeat; background-size: 102%">
+          <div class="redTint">
+              <div class="description">
+                <br><br><a href="img/reagan.png" data-lightbox="reagan" data-title="Design:  1) Visual mark/logo.  2) A key photograph that they feel captures the selected President.  3) Color palette.  4) Typographic treatment.  5) Entire visual identity applied to 3 mockups of diverse elements (Ex: shirts, posters, etc.)"><h2>Reagan<br>Rebranding<br>+</h2></a>
+              </div>
+          </div>
+        </div>
+        <div class="project" id="proj6" style="background: URL('https://dl.dropboxusercontent.com/u/804978/froont-page/img/bounsr_thumb.png') no-repeat; background-size: 102%">
+          <div class="redTint">
+              <div class="description">
+                <br><br><a href="img/bounsr.png" data-lightbox="bounsr" data-title="Bounsr was born from Miami University's Startup Weekend. Bounsr is an app that allows users to plan and attend events. Bounsr provides a mobile payment and check-in system as well as live demographic tracking, push notifications, and expedited entry line & fee collection."><h2>Bounsr<br>App<br>+</h2></a>
+              </div>
+          </div>
+        </div>
+        <div class="project" id="proj7" style="background: URL('https://dl.dropboxusercontent.com/u/804978/froont-page/img/info_thumb.png') no-repeat; background-size: 102%">
+          <div class="redTint">
+              <div class="description">
+                <br><br><a href="img/info.png" data-lightbox="info" data-title="Promotional materials used for the Miami Notebook program. Printed and digital forms used for perspective students and incoming students. Printed copies were also used during official campus tours."><h2>MNB<br>Infographic<br>+</h2></a>
+              </div>
+          </div>
+        </div>
+        <div class="project" id="proj8" style="background: URL('https://dl.dropboxusercontent.com/u/804978/froont-page/img/metro_thumb.png') no-repeat; background-size: 102%">
+          <div class="redTint">
+              <div class="description">
+                <br><br><a href="img/metro.png" data-lightbox="metro" data-title="The path to great solutions begins by really understanding the problem you are trying to solve. In this project, students will work as a team to identify a common problem, plan and execute a deep dive research initiative into the heart of the problem and propose a series of solutions in the form of a black and white poster. In the process, students will learn about and apply principles of ethnographic research, basic typography and exploration of how one can effectively communicate visually."><h2>Miami Metro/<br>Redhawk Re-Cycles<br>+</h2></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="portfolio_small">
+      <div class="project_small_wrap">
+        <div class="project_small" id="proj1">
+        </div>
+        <div class="project_small" id="proj2">
+        </div>
+        <div class="project_small" id="proj3">
+        </div>
+      </div>
+      <div class="project_small_wrap">
+        <div class="project_small" id="proj4">
+        </div>
+        <div class="project_small" id="proj5">
+        </div>
+        <div class="project_small" id="proj6">
+        </div>
+        </div>
+      </div>
+    </div>
+   
+   <div class="more">
+        <div class="behance"><a href="https://www.behance.net/zachdrago" target="_blank">Behance &#x21e2;</a></div>
+   </div>
+
+   <div class="skills">
+      <div class="hire"><br><br><br>
+      <div class="weapons">My weapons of choice<br><br></div>
+        <div class="icons"><img src="img/imac2.png"><img src="img/ipad.png"><img src="img/adobe.png"></div><br style="clear: both;"><br><br><br></div>
+      </div>
+   </div>
+
+	<div class="contact">
+		<div class="content" style="width: 80%">
+        <div class="phone">
+    			<div><a href="mailto:zacharydrago@me.com">zacharydrago@me.com</a></div>
+          <div style="margin-top: 36px;">330.398.1443</div>
+          <div style="margin-top: 37px;"><a href="http://linkedin.com/in/zachdrago">LinkedIn</a>  <img src="img/bullet.png" style="padding-left: 3%; padding-right: 3%; padding-bottom: 1%;">  <a href="https://dl.dropboxusercontent.com/u/804978/ZachDrago_Resumes.pdf" target="blank">Resume &darr;</a></div>
+        </div>
+    </div>
+  </div>
+
+  <div class="contactSmall">
+      <div class="content">
+        <div class="phone">
+          <text style="font-size: 3em; color: #CDBB6C;"> Contact+</text><br><br><a href="mailto:zacharydrago@me.com">zacharydrago@me.com</a><br>330.398.1443<br><a href="http://linkedin.com/in/zachdrago">LinkedIn</a><br><a href="https://dl.dropboxusercontent.com/u/804978/ZachDrago_Resumes.pdf" target="blank">Resume &darr;</a>
+        </div>
+      </div>
+  </div>
+
+    <!-- <div class="footer "> -->
+    <footer>
+	    <div id="location">Oxford, OH</div>
+  		<div id="email">Email me at: <a href="mailto:zacharydrago@me.com"> zacharydrago@me.com</a></div>
+		</footer>
+    </div>
+
+  </div>
+ 
+    
+<!-- <div class="hiddenPics"> -->
+  <a href"img/bowtie2.jpg" rel="lightbox[bowtie]" data-lightbox="bowtie"></a>
+  <a href"img/bowtie3.jpg" rel="lightbox[bowtie]" data-lightbox="bowtie"></a>
+  <a href"img/bowtie4.jpg" rel="lightbox[bowtie]" data-lightbox="bowtie"></a>
+  <a href"img/bowtie5.jpg" rel="lightbox[bowtie]" data-lightbox="bowtie"></a>
+
+
+<!-- </div> -->
+    
+
+
+
+
+
+
+
+
+    <!-- WORK HOVER SCRIPT -->
+<script>
+      $('.project').hover(function () {
+        $('.description', this).stop().animate({
+            bottom: 0
+        }, 400);
+        }, function () {
+        $('.description', this).stop().animate({
+            bottom: -600
+        }, 400);
+      });
+</script>
+
+  </div>
+
+
+
+
 </body>
 </html>
